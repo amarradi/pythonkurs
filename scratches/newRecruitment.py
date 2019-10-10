@@ -23,6 +23,10 @@ print("30 - 40 Jahre:",var_cops_30_to_40)
 print("40 - 50 Jahre:",var_cops_40_to_50)
 
 print("50 - 60 Jahre:",var_cops_50_to_60)
+var_retirees = float((var_cops_50_to_60 * 0.11).__round__(2))
+
+print("Pensionäre:", var_retirees)
+var_cops_50_to_60 = var_cops_50_to_60 - (var_cops_50_to_60 * 0.11)
 
 print("=====Stand 2018=====")
 var_cops_20_to_30 = (var_cops_50_to_60 * 0.11)+ var_cops_20_to_30
