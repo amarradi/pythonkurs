@@ -17,71 +17,94 @@ var_cops_50_to_60 = float((var_cops_sum * var_verteilung_50_to_60).__round__(2))
 print("=====Stand 2017=====")
 print("Gesamt:",var_cops_sum)
 print("20 - 30 Jahre:",var_cops_20_to_30)
-
 print("30 - 40 Jahre:",var_cops_30_to_40)
-
 print("40 - 50 Jahre:",var_cops_40_to_50)
-
 print("50 - 60 Jahre:",var_cops_50_to_60)
-var_retirees = float((var_cops_50_to_60 * 0.11).__round__(2))
+var_retirees = var_cops_50_to_60 * 0.11.__round__(2)
 
-print("Pensionäre:", var_retirees)
+print("Pensionäre in 2017:", var_retirees)
 var_cops_50_to_60 = var_cops_50_to_60 - (var_cops_50_to_60 * 0.11)
 
 print("=====Stand 2018=====")
-var_cops_20_to_30 = (var_cops_50_to_60 * 0.11)+ var_cops_20_to_30
-print("Neueinstellung:" , var_cops_20_to_30)
+var_cops_20_to_30 = (var_cops_50_to_60 * 0.11) + var_cops_20_to_30
+print("Neueinstellung Personal+Pensionäre aus Vorjahr:",var_retirees,"sind insgesamt" , var_cops_20_to_30)
+
+var_cops_20_to_30 = var_cops_20_to_30 - var_cops_20_to_30 * 0.10.__round__(2)
 
 print("20 - 30 Jahre Wechsel wegen Alter:", (var_cops_20_to_30 * 0.10))
 var_cops_30_to_40 = var_cops_30_to_40 + (var_cops_20_to_30 * 0.10).__round__(2)
 print("30 - 40 Jahre:", var_cops_30_to_40)
 
+var_cops_30_to_40 = var_cops_30_to_40 - var_cops_30_to_40 * 0.10.__round__(2)
+
+
 print("40 - 50 Jahre Wechsel wegen Alter:", (var_cops_30_to_40 * 0.10))
 var_cops_40_to_50 = var_cops_40_to_50 + (var_cops_30_to_40 * 0.10).__round__(2)
 print("40 - 50 Jahre:",var_cops_40_to_50)
-
-print("50 - 60 Jahre Wechsel wegen Aler:", (var_cops_40_to_50 * 0.08))
-var_cops_50_to_60 = var_cops_50_to_60 + (var_cops_40_to_50 * 0.08).__round__(2)
+var_cops_40_to_50 = var_cops_40_to_50 - (var_cops_40_to_50 * 0.08).__round__(2)
+print("50 - 60 Jahre Wechsel wegen Alter:", (var_cops_40_to_50 * 0.08))
+var_cops_50_to_60 = var_cops_50_to_60 + (var_cops_40_to_50 * 0.10).__round__(2)
 print("50 - 60 Jahre:",var_cops_50_to_60 )
-var_retirees = float((var_cops_50_to_60 * 0.11).__round__(2))
+var_retirees = var_cops_50_to_60 * 0.11.__round__(2)
+
+var_cops_50_to_60 = var_cops_50_to_60 - var_retirees
 
 print("Pensionäre:", var_retirees)
-var_summe = float(var_cops_20_to_30+var_cops_30_to_40+var_cops_40_to_50+var_cops_50_to_60)
-print("Summe Jahresstand:" ,var_summe)
+var_summe = var_cops_20_to_30+var_cops_30_to_40+var_cops_40_to_50+var_cops_50_to_60
+delta = var_cops_sum - var_summe
+print("Summe Jahresstand:" ,var_summe, "zusätzlich müssen", var_cops_sum-var_summe, "Polizisten eingestellt werden.")
+
 print("=====Stand 2019=====")
-var_cops_20_to_30 = var_retirees
-print("Neueinstellung:", var_cops_20_to_30)
+var_cops_20_to_30 = (var_cops_50_to_60 * 0.11) + var_cops_20_to_30
+print("Neueinstellung Personal+Pensionäre aus Vorjahr:",var_retirees,"sind insgesamt" , var_cops_20_to_30)
+
+var_cops_20_to_30 = var_cops_20_to_30 - var_cops_20_to_30 * 0.10.__round__(2)
+
 print("20 - 30 Jahre Wechsel wegen Alter:", (var_cops_20_to_30 * 0.10))
 var_cops_30_to_40 = var_cops_30_to_40 + (var_cops_20_to_30 * 0.10).__round__(2)
 print("30 - 40 Jahre:", var_cops_30_to_40)
 
+var_cops_30_to_40 = var_cops_30_to_40 - var_cops_30_to_40 * 0.10.__round__(2)
+
+
 print("40 - 50 Jahre Wechsel wegen Alter:", (var_cops_30_to_40 * 0.10))
 var_cops_40_to_50 = var_cops_40_to_50 + (var_cops_30_to_40 * 0.10).__round__(2)
 print("40 - 50 Jahre:",var_cops_40_to_50)
-
-print("50 - 60 Jahre Wechsel wegen Aler:", (var_cops_40_to_50 * 0.08))
-var_cops_50_to_60 = var_cops_50_to_60 + (var_cops_40_to_50 * 0.08).__round__(2)
+var_cops_40_to_50 = var_cops_40_to_50 - (var_cops_40_to_50 * 0.08).__round__(2)
+print("50 - 60 Jahre Wechsel wegen Alter:", (var_cops_40_to_50 * 0.08))
+var_cops_50_to_60 = var_cops_50_to_60 + (var_cops_40_to_50 * 0.10).__round__(2)
 print("50 - 60 Jahre:",var_cops_50_to_60 )
-var_retirees = float((var_cops_50_to_60 * 0.11).__round__(2))
-
+var_retirees = var_cops_50_to_60 * 0.11.__round__(2)
+var_cops_50_to_60 = var_cops_50_to_60 - var_retirees
 print("Pensionäre:", var_retirees)
-var_summe = float(var_cops_20_to_30+var_cops_30_to_40+var_cops_40_to_50+var_cops_50_to_60)
-print("Summe Jahresstand:" ,var_summe)
+var_summe = var_cops_20_to_30+var_cops_30_to_40+var_cops_40_to_50+var_cops_50_to_60
+delta = var_cops_sum - var_summe
+print("Summe Jahresstand:" ,var_summe, "zusätzlich müssen", var_cops_sum-var_summe, "Polizisten eingestellt werden.")
+
 print("=====Stand 2020=====")
-var_cops_20_to_30 = var_retirees
-print("Neueinstellung:", var_cops_20_to_30)
-var_cops_20_to_30 = var_cops_20_to_30 + var_retirees
+var_cops_20_to_30 = (var_cops_50_to_60 * 0.11) + var_cops_20_to_30
+print("Neueinstellung Personal+Pensionäre aus Vorjahr:",var_retirees,"sind insgesamt" , var_cops_20_to_30)
+
+var_cops_20_to_30 = var_cops_20_to_30 - var_cops_20_to_30 * 0.10.__round__(2)
+
 print("20 - 30 Jahre Wechsel wegen Alter:", (var_cops_20_to_30 * 0.10))
 var_cops_30_to_40 = var_cops_30_to_40 + (var_cops_20_to_30 * 0.10).__round__(2)
 print("30 - 40 Jahre:", var_cops_30_to_40)
 
+var_cops_30_to_40 = var_cops_30_to_40 - var_cops_30_to_40 * 0.10.__round__(2)
+
+
 print("40 - 50 Jahre Wechsel wegen Alter:", (var_cops_30_to_40 * 0.10))
 var_cops_40_to_50 = var_cops_40_to_50 + (var_cops_30_to_40 * 0.10).__round__(2)
 print("40 - 50 Jahre:",var_cops_40_to_50)
-
-print("50 - 60 Jahre Wechsel wegen Aler:", (var_cops_40_to_50 * 0.08))
-var_cops_50_to_60 = var_cops_50_to_60 + (var_cops_40_to_50 * 0.08).__round__(2)
+var_cops_40_to_50 = var_cops_40_to_50 - (var_cops_40_to_50 * 0.08).__round__(2)
+print("50 - 60 Jahre Wechsel wegen Alter:", (var_cops_40_to_50 * 0.08))
+var_cops_50_to_60 = var_cops_50_to_60 + (var_cops_40_to_50 * 0.10).__round__(2)
 print("50 - 60 Jahre:",var_cops_50_to_60 )
-var_retirees = float((var_cops_50_to_60 * 0.11).__round__(2))
-
+var_retirees = var_cops_50_to_60 * 0.11.__round__(2)
+var_cops_50_to_60 = var_cops_50_to_60 - var_retirees
 print("Pensionäre:", var_retirees)
+
+var_summe = var_cops_20_to_30+var_cops_30_to_40+var_cops_40_to_50+var_cops_50_to_60
+delta = var_cops_sum - var_summe
+print("Summe Jahresstand:" ,var_summe, "zusätzlich müssen", var_cops_sum-var_summe, "Polizisten eingestellt werden.")
