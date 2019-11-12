@@ -1,0 +1,48 @@
+# Uebungen zu Strings
+
+
+'''
+Uebung 1
+
+Nutzen Sie string.strip und .format() und setzen Sie den String korrekt zusammen.
+'''
+
+string1='Teile eines Computer die Hardware nennt man die man treten kann'
+
+
+'''
+Uebung 2
+
+Achten Sie ausserdem auf die Groß- und Kleinschreibung, nutzen Sie Strings-Methoden.
+'''
+
+string2='tEILE EINeS coMPUter DIE hardware NENNt Man DIE MAN TretEN KANN'
+
+
+'''
+Uebung 3
+
+Ersetzen Sie Buchstaben mit string.replace(a,b)
+'''
+
+string3='Taila ainas Computar dia Hxrdwxra nannt mxn dia mxn tratan kxnn'
+
+
+'''
+Uebung 4
+
+Oeffnen Sie die Datei films.txt. Erstellen Sie eine neue filmliste=[], fuegen Sie die Ueberschrift Filmtitel, Jahr, Sprache ein und importieren Sie die sortierten Eintrage aus films.txt. Speichern Sie die neue filmliste in die Datei films_sortiert.txt.
+'''
+
+
+'''
+Uebung 5
+
+Gegeben ist ein verschlüsselter Text, bei welchem die Buchstaben um eine Stelle nach rechts verschoben sind (Caesar Chiffre)
+
+Entschlüsseln Sie den Text mit Python:
+
+Bei der Caesar Chiffre werden die Buchstaben eines Alphabetes auf ein Zahlenraster gemappt, danach kann um entsprechende Werte verschoben werden.
+'''
+
+cipherstring='tvqfs ev ibtu ft hftdibggu ijfs jtu efs hfifjnufyu'

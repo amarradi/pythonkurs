@@ -1,0 +1,7 @@
+Filmtitel, Jahr, Sprache
+Asterix bei den Schweizern,1973,German
+Asterix bei den Briten,1971,German
+Der Kampf der Häuptlinge,1969,German
+Asterix en Corse,1973,Französisch
+La Cadeau de Cesar,1974,Französisch
+Asterix bei den Belgiern,1979,German
