@@ -1,9 +1,9 @@
-'''
+"""
 Schreiben Sie ein Python-Skript, dass...
 6. ...ein Dokument und eine beliebige Anzahl von Suchbegriﬀen übergeben bekommt
 und anzeigt ob es Treﬀer gibt.
 https://docs.python.org/3/library/argparse.html
-'''
+"""
 import argparse
 import re
 

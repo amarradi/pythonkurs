@@ -1,7 +1,7 @@
-'''
+"""
 Schreiben Sie ein Python-Skript, dass...
 2. ...einen Kleinbuchstaben gefolgt von einem Großbuchstaben ﬁndet.
-'''
+"""
 import re
 
 var_suchtext = "Ba"

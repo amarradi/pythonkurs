@@ -1,4 +1,4 @@
-'''
+"""
 Uebung 5
 
 Gegeben ist ein verschlüsselter Text, bei welchem die Buchstaben um eine Stelle nach rechts verschoben sind (Caesar Chiffre)
@@ -6,7 +6,7 @@ Gegeben ist ein verschlüsselter Text, bei welchem die Buchstaben um eine Stelle
 Entschlüsseln Sie den Text mit Python:
 
 Bei der Caesar Chiffre werden die Buchstaben eines Alphabetes auf ein Zahlenraster gemappt, danach kann um entsprechende Werte verschoben werden.
-'''
+"""
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
             'v', 'w', 'x', 'y', 'z']
 cipherstring = "tvqfs ev ibtu ft hftdibggu ijfs jtu efs hfifjnufyu"

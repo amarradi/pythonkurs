@@ -1,7 +1,7 @@
-'''
+"""
 Schreiben Sie ein Python-Skript, dass...
 8. ...ein Datum in dem Format yyyy-mm-dd oder yy-m-d in das Format dd.mm.yyyy konvertiert.
-'''
+"""
 import re
 
 var_suchtext = "2019-11-13"

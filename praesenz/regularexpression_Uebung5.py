@@ -1,7 +1,7 @@
-'''
+"""
 Schreiben Sie ein Python-Skript, dass...
 5. ...alle führenden Nullen einer IP-Adresse entfernt.
-'''
+"""
 import re
 
 #

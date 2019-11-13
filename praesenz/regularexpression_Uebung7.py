@@ -1,7 +1,7 @@
-'''
+"""
 Schreiben Sie ein Python-Skript, dass...
 7. ...die exakte Position eines Suchworts in einer Zeichenkette ausgibt.
-'''
+"""
 import re
 
 var_gefunden = False

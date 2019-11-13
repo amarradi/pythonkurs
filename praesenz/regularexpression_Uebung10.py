@@ -1,4 +1,4 @@
-'''
+"""
 Schreiben Sie ein Python-Skript, dass...
 10. ...eine Liste von Kreditkartennummern nach den folgenden Kriterien überprüfen
 kann:
@@ -10,7 +10,7 @@ kann:
 einen Bindestrich,
 • keinen anderen Trenner verwendet,
 • sich keine Zahl häuﬁger als vier Mal wiederholt.
-'''
+"""
 
 import re
 

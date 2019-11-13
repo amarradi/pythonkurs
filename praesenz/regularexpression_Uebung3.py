@@ -1,7 +1,7 @@
-'''
+"""
 Schreiben Sie ein Python-Skript, dass...
 3. ...überprüft ob eine Zeichenkette mit einem Wort beginnt.
-'''
+"""
 import re
 
 var_suchtext = "Ba fgdfgdff erte "

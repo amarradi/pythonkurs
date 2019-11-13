@@ -1,8 +1,8 @@
-'''
+"""
 Schreiben Sie ein Python-Skript, dass...
 1. ...überprüft ob eine Zeichenkette ausschließlich aus Buchstaben (klein und groß)
 und Zahlen besteht.
-'''
+"""
 import re
 
 var_suchtext = "kannzueinerGruppevonZiffernzusammenstwerdeng09"

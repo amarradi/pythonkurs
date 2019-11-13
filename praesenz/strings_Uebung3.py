@@ -1,8 +1,8 @@
-'''
+"""
 Uebung 3
 
 Ersetzen Sie Buchstaben mit string.replace(a,b)
-'''
+"""
 
 string3 = 'Taila ainas Computar dia Hxrdwxra nannt mxn dia mxn tratan kxnn'
 print(string3)

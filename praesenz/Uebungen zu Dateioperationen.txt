@@ -4,6 +4,7 @@
     Pfade jeder gefundenen Datei unterhalb des Mountpoints.
 
 2. Implementiere einen Suchmodus für Dateinamen.
+--> Gesucht werden alle Dateien mit 'VeraCrypt' im Namen.
 
 3. Implementiere einen Suchmodus für Dateigrößen.
 -> Gesucht wird eine Datei mit 3010349 Byte

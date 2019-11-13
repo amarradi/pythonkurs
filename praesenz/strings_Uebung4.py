@@ -1,9 +1,9 @@
-'''
+"""
 Uebung 4
 
 Oeffnen Sie die Datei films.txt. Erstellen Sie eine neue filmliste=[], fuegen Sie die Ueberschrift Filmtitel, Jahr, Sprache ein und importieren Sie die sortierten Eintrage aus films.txt.
 Speichern Sie die neue filmliste in die Datei films_sortiert.txt.
-'''
+"""
 filmliste = 'Filmtitel, Jahr, Sprache'
 output = open("strings_Uebung1.txt", 'w', encoding="utf-8")
 print(filmliste, file=output)

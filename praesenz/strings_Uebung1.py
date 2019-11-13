@@ -1,11 +1,8 @@
-# Uebungen zu Strings
-
-
-'''
+"""
 Uebung 1
 
 Nutzen Sie string.split() und .format() und setzen Sie den String korrekt zusammen.
-'''
+"""
 
 string1 = 'Teile eines Computer die Hardware nennt man die man treten kann'
 # Hardware nennt man die Teile eines Computer die man treten kann

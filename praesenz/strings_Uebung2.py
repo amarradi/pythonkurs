@@ -1,8 +1,8 @@
-'''
+"""
 Uebung 2
 
 Achten Sie ausserdem auf die Groß- und Kleinschreibung, nutzen Sie Strings-Methoden.
-'''
+"""
 
 string2 = 'tEILE EINeS coMPUter DIE hardware NENNt Man DIE MAN TretEN KANN'
 print(string2)
