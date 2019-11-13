@@ -4,9 +4,10 @@ Schreiben Sie ein Python-Skript, dass...
 und Zahlen besteht.
 '''
 import re
+
 var_suchtext = "kannzueinerGruppevonZiffernzusammenstwerdeng09"
 var_suchausdruck = "^[a-zA-ZäöüÄÖÜß0-9]+$"
-if re.match(var_suchausdruck,var_suchtext):
-    print((re.match(var_suchausdruck,var_suchtext)))
+if re.match(var_suchausdruck, var_suchtext):
+    print((re.match(var_suchausdruck, var_suchtext)))
 else:
     print("enthält Sonderzeichen")

@@ -7,4 +7,4 @@ import re
 var_suchtext = "Xylophon ypsilon funny y"
 var_suchausdruck = "[a-zA-Z]*[yY][a-zA-Z]*"
 
-print(re.findall(var_suchausdruck,var_suchtext))
+print(re.findall(var_suchausdruck, var_suchtext))
