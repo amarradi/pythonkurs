@@ -1,0 +1,32 @@
+'''
+Reguläre Ausdrücke in Python
+1 Ziel der Übung
+
+Umgang mit regulären Ausdrücken festigen und die Implementierung in Python kennen-
+lernen.
+
+2 Übung
+
+Schreiben Sie ein Python-Skript, dass...
+1. ...überprüft ob eine Zeichenkette ausschließlich aus Buchstaben (klein und groß)
+und Zahlen besteht.
+2. ...einen Kleinbuchstaben gefolgt von einem Großbuchstaben ﬁndet.
+3. ...überprüft ob eine Zeichenkette mit einem Wort beginnt.
+4. ...alle Wörter ﬁndet die ein „y“ enthalten.
+5. ...alle führenden Nullen einer IP-Adresse entfernt.
+6. ...ein Dokument und eine beliebige Anzahl von Suchbegriﬀen übergeben bekommt
+und anzeigt ob es Treﬀer gibt.
+7. ...die exakte Position eines Suchworts in einer Zeichenkette ausgibt.
+8. ...ein Datum in dem Format yyyy-mm-dd in das Format dd.mm.yyyy konvertiert.
+9. ...alle URLs aus einer Zeichenkette herausﬁltert.
+10. ...eine Liste von Kreditkartennummern nach den folgenden Kriterien überprüfen
+kann:
+• Die Ziﬀernfolge beginnt mit einer 4,5 oder 6,
+• besteht aus exakt 16 Ziﬀern,
+• enthält nur Zahlen (0 bis 9),
+
+• kann zu einer Gruppe von 4 Ziﬀern zusammengefasst werden, getrennt durch
+einen Bindestrich,
+• keinen anderen Trenner verwendet,
+• sich keine Zahl häuﬁger als vier Mal wiederholt.
+'''
