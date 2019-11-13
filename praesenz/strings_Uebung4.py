@@ -5,7 +5,7 @@ Oeffnen Sie die Datei films.txt. Erstellen Sie eine neue filmliste=[], fuegen Si
 Speichern Sie die neue filmliste in die Datei films_sortiert.txt.
 '''
 filmliste = 'Filmtitel, Jahr, Sprache'
-output = open("output.txt", 'w', encoding="utf-8")
+output = open("strings_Uebung1.txt", 'w', encoding="utf-8")
 print(filmliste, file=output)
 with open("films.txt", "r", encoding="utf-8") as var_f:
     var_data = var_f.readlines()

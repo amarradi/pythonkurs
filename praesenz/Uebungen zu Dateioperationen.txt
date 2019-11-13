@@ -1,0 +1,14 @@
+1. Schreibe ein Programm, dass alle Dateien im Verzeichnis /mnt/ewf1/ (Mountpoint von Win7_Python.E01) durchläuft.
+
+--> Ausgegeben werden soll (Zeile für Zeile) der komplette
+    Pfade jeder gefundenen Datei unterhalb des Mountpoints.
+
+2. Implementiere einen Suchmodus für Dateinamen.
+
+3. Implementiere einen Suchmodus für Dateigrößen.
+-> Gesucht wird eine Datei mit 3010349 Byte
+
+4. Implementiere einen Suchmodus für Zeitstempel (bspw. a-time)
+
+5. Implementieren Sie einen Suchmodus für SHA256-Hashwerte
+-> Gesucht wird eine Datei mit dem Hashwert c6a91cba00bf87cdb064c49adaac82255cbec6fdd48fd21f9b3b96abf019916b
