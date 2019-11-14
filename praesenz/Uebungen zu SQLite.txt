@@ -1,0 +1,29 @@
+Aufgabe SQLite:
+
+Führen Sie jeden Schritt zunächst mit dem DB Browser und dann noch einmal in Python aus!
+
+- Erstellen Sie eine SQLite Datenbank mit dem Namen 'filmliste_browser.db' (mit dem DB Browser) und 'filmliste_py.db' (mit Python).
+
+- die Datenbank soll die Tabelle 'filme' mit den Spalten
+  id(integer),name(text),jahr(integer),sprache(text) enthalten.
+
+- die Datenbank soll eine zweite Tabelle 'meta' mit den
+  film_id(integer),qualitaet(text),dauer_min(integer) enthalten.
+
+- die Tabellen sind untereinander mit den Spalten id und film_id
+  referenziert.
+
+- Füllen Sie die DB mit Beispielswerten
+
+- Erstellen Sie einen CSV Report nach dem Muster: film
+  (name),qualität,dauer
+
+
+
+
+Nutzen Sie zur Umsetzung die drei Funktionen:
+
+create_db(): zum Erstellen und Befüllen der Datenbank 
+abfrage_db(): zur Durchführung einer Abfrage
+export_csv(): zum Export in die Datei filmliste.csv
+
